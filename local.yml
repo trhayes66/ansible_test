@@ -6,7 +6,7 @@
     - name: update repositories
       apt:
         update_cache: yes
-        change_when: upgrade
+        change_when: only_upgrade
 
   tasks:
     - include: tasks/packages.yml
