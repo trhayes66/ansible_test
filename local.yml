@@ -4,9 +4,9 @@
 
   pre_tasks:
     - name: update repositories
-    apt:
-      update_cache: yes
-      change_when: false
+      apt:
+        update_cache: yes
+        change_when: false
 
   tasks:
     - include: tasks/packages.yml
