@@ -4,7 +4,7 @@
 
   pre_tasks:
   - name: update repositories
-    packages:
+    apt:
       update_cache: yes
       change_when: False
 
