@@ -5,8 +5,8 @@
   pre_tasks:
     - name: update repositories
       ansible.builtin.apt:
-        update_cache: yes
-        change_when: false
+        name: "*"
+        state: latest 
 
   tasks:
     - include: tasks/packages.yml
