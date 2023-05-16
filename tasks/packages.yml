@@ -1,0 +1,11 @@
+-  name: Install Packages
+  apt:
+    name:
+      - htop
+      - tmux
+      - mc
+      - cmatrix
+      - hollywood
+      - btop
+      - apache2
+      
