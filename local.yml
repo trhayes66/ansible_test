@@ -6,7 +6,7 @@
     - name: update repositories
       apt:
         update_cache: yes
-        change_when: only_upgrade
+        change_when: allow_unauthenticated
 
   tasks:
     - include: tasks/packages.yml
