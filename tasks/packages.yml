@@ -9,5 +9,5 @@
       - nginx
       - gimp
       - timeshift
-
+      - tailscale
       
